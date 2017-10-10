@@ -1,0 +1,40 @@
+* { /* Removes all paddings*/ 
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Oswald', sans-serif;
+
+	background-color: rgba(0, 0, 0, 1);
+	background: url(../img/wallpaper.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+header, section, footer {
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+/*********************HEADER*********************/
+header {
+	position: sticky;
+}
+
+/*********************CONTENT*********************/
+.content {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+}
+
+/*********************SECTION*********************/
+
+
+/***HOME***/
+
+
+/*********************FOOTER*********************/
